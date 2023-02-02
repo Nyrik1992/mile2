@@ -7,13 +7,12 @@ public class Main {
         int mile;
         if (ticketPrice > 20) {
 
-            mile =ticketPrice/20;
+            mile = ticketPrice / 20;
         } else {
-                mile = 0;
+            mile = 0;
         }
 
 
-
-        System.out.println("Ваш бонус: "+ mile);
+        System.out.println("Ваш бонус: " + mile);
     }
 }
